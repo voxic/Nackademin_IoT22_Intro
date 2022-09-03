@@ -8,7 +8,7 @@
 
 ### 2. Ladda ner Home Assistant OVA
 
-* Gå till https://www.home-assistant.io/hassio/installation/
+* Gå till https://www.home-assistant.io/installation/linux
 * Ladda ner OVA avbildning. 
 
 !["ova"](ova.png)
