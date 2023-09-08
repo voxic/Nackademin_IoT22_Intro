@@ -18,6 +18,7 @@ def on_message(client, userdata, msg):
         print("\n" + messageObj["name"] + " said: " + messageObj["message"])
 
 def on_connect(client, userdata, flags, rc):
+    print("\n" + "Connected, start chatting!")
     client.subscribe("nackademinchat/"+topic)
 
 # Connect to MQTT and report in
